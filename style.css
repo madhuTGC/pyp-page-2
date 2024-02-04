@@ -1,0 +1,85 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 5px solid #29BB9C;
+  height: 100vh;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.pyp {
+  background-color: #29BB9C;
+  text-align: center;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  margin-top: 10vh;
+  color: #616161;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Align items to the left */
+}
+
+.column {
+  flex: 1;
+  margin: 1vw;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 5vw;
+}
+
+.select-box {
+  width: 80%;
+  padding: 0.7vw;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #616161;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the left */
+  margin-top: 2vh; /* Add margin at the top for spacing */
+  margin-right: 5vw;
+}
+
+
+.button {
+  margin-right: 1vw;
+  margin: 1vw;
+  padding: 6px;
+  width: 7vw;
+  height: 3vh;
+  font-size: 1rem;
+  background-color: #29BB9C;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
