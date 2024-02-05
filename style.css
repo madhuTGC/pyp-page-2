@@ -87,7 +87,7 @@ label {
 .input-container {
   display: flex;
   /* margin-left:5.5rem ; */
-  height: 4.5vh;
+  /* height: 4.5vh; */
 
 }
 #input-container-browse{
