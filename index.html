@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...your-sha-hash-here..." crossorigin="anonymous" />
+
+
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap');
@@ -48,7 +51,7 @@
             class="select-box"
             required
           >
-            <option value="" disabled selected>Select Organization</option>
+            <option value="" disabled selected>Select File Size</option>
             <option value="org3">Organization 3</option>
             <option value="org4">Organization 4</option>
           </select>
@@ -57,7 +60,7 @@
         <div class="column">
           <label for="role2">File Duration</label>
           <select id="role2" name="role2" class="select-box" required>
-            <option value="" disabled selected>Select Role</option>
+            <option value="" disabled selected>Select File Duration </option>
             <option value="role2a">Role 2A</option>
             <option value="role2b">Role 2B</option>
           </select>
@@ -73,7 +76,7 @@
             class="select-box"
             required
           >
-            <option value="" disabled selected>Select Organization</option>
+            <option value="" disabled selected>Select Category</option>
             <option value="org5">Organization 5</option>
             <option value="org6">Organization 6</option>
           </select>
@@ -82,7 +85,7 @@
         <div class="column">
           <label for="role3">Sub-Category</label>
           <select id="role3" name="role3" class="select-box" required>
-            <option value="" disabled selected>Select Role</option>
+            <option value="" disabled selected>Select Sub-Category</option>
             <option value="role3a">Role 3A</option>
             <option value="role3b">Role 3B</option>
           </select>
@@ -92,33 +95,30 @@
       <div class="container">
         <div class="column">
           <label for="organization4">Background Image</label>
-          <select
-            id="organization4"
-            name="organization4"
-            class="select-box"
-            required
-          >
-            <option value="" disabled selected>Select Organization</option>
-            <option value="org7">Organization 7</option>
-            <option value="org8">Organization 8</option>
-          </select>
+          <div class="input-container">
+            <input type="text" id="organization4" name="organization4" class="input-box" placeholder="Enter Image Name" required>            
+            <button class="browse-button">Browse Image</button>
+          </div>
         </div>
-
-        <div class="column">
-          <label for="role4">Text Color(Subtext)</label>
-          <select id="role4" name="role4" class="select-box" required>
-            <option value="" disabled selected>Select Role</option>
-            <option value="role4a">Role 4A</option>
-            <option value="role4b">Role 4B</option>
-          </select>
+          
+      <div class="column">
+        <label for="role4">Text Color(Subtext)</label>
+        <div class="input-icon-container">
+          <input type="text" id="organization4" name="organization4" class="input-box-1">
+          <i class="fas fa-fill-drip icon"></i>
         </div>
       </div>
+      
 
+      
+    </div>
+    <div class="container" id="close-container">
       <div class="button-row">
         <button class="button">Close</button>
         <button class="button">Save</button>
       </div>
     </div>
+    
   </body>
 </html
 

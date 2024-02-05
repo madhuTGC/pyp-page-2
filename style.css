@@ -61,6 +61,7 @@ label {
   border-radius: 6px;
   color: #616161;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 .button-row {
@@ -83,3 +84,69 @@ label {
   border: none;
   cursor: pointer;
 }
+
+
+.input-container {
+  display: flex;
+  margin-left:5.5rem ;
+}
+
+
+.browse-button {
+    color: #050505;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 5px;
+  cursor: pointer;
+  width: 18%;
+  box-shadow: 2px 2px 5px 2px #616161; 
+  /* margin-right:2rem ; */
+
+}
+
+
+
+.input-box{
+  width: 70%;
+  padding: 0.7vw;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  color: #616161;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  box-shadow: #616161;
+}
+
+
+
+.input-box-1{
+  width: 80%;
+  padding: 0.7vw;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  color: #616161;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  box-shadow: #616161;
+}
+
+
+.input-icon-container {
+  position: relative;
+}
+
+.input-box-1 {
+  padding-right: 30px; /* Adjust the value based on the icon size and positioning */
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  transform: translateY(-50%);
+  color: #555; /* Adjust the color of the icon */
+}
+#close-container{
+  justify-content: end;
+}
+
