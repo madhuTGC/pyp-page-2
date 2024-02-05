@@ -73,7 +73,7 @@ label {
 .button {
   margin-right: 1vw;
   margin: 1vw;
-  padding: 0.2rem;
+  /* padding: 1rem; */
   width: 7vw;
   height: 3vh;
   font-size: 1.2rem;
@@ -92,7 +92,9 @@ label {
   width: 100%;
   position: relative;
   left: 10%;
-  font-size: 1.2rem;
+  /* font-size: 1rem; */
+  height: 4.5vh;
+
 
   
 }
@@ -103,8 +105,8 @@ label {
   border-radius: 0.2rem;
   /* padding: 5px ; */
   cursor: pointer;
-  width: 17%;
-  height: 4.7vh;
+  width: 13%;
+  /* height: 4.7vh; */
   box-shadow: 0px 2px 0px 0px #ccc; 
   position: relative;
   right: 13%;  
@@ -161,33 +163,3 @@ label {
   justify-content: end;
 }
 
-@media only screen and (max-width: 768px) {
-  .pyp {
-    font-size: 1.2rem;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .column {
-    margin: 10px;
-  }
-
-  .select-box,
-  .button {
-    width: 100%;
-  }
-
-  .browse-button {
-    width: 100%;
-    margin-right: 0;
-  }
-
-  .input-box,
-  .input-box-1 {
-    width: 100%;
-    padding: 10px;
-  }
-}
